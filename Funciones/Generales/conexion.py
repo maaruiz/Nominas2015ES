@@ -10,8 +10,8 @@ class Basedatos():
         return self.database
 
     def conectar(self):
-        self.database = MySQLdb.connect(host="localhost", user="root",
-                                        passwd="aniremysql", charset='utf8',
+        self.database = MySQLdb.connect(host="host", user="user",
+                                        passwd="password", charset='utf8',
                                         db="Nominas")
         self.cursor = self.database.cursor()
         return self.cursor
