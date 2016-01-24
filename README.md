@@ -10,6 +10,7 @@ Calculo de nóminas en España a partir del ejercicio 2015
 4. Cálculo e impresión de finiquitos.
   - Cálculo de los días de vacaciones pendientes de disfrutar
   - Cálculo de las pagas extras.
+
 # Queda pendiente
 1. Desarrollo de las ventanas de introducción de datos
 2. Desarrollo de ficheros para la comunicación con la Seguridad Social
