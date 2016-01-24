@@ -2,7 +2,10 @@ import MySQLdb
 
 class Basedatos():
 
-    def __init__(self):
+    def __init__(self, host='localhost', user='root', password=''):
+        self.host = host
+        self.user = user
+        self.password = password
         pass
 
     def db(self):
@@ -10,8 +13,8 @@ class Basedatos():
         return self.database
 
     def conectar(self):
-        self.database = MySQLdb.connect(host="host", user="user",
-                                        passwd="password", charset='utf8',
+        self.database = MySQLdb.connect(host=self.host, user=self.user,
+                                        passwd=self.password, charset='utf8',
                                         db="Nominas")
         self.cursor = self.database.cursor()
         return self.cursor
