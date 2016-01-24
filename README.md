@@ -19,3 +19,6 @@ Calculo de nóminas en España a partir del ejercicio 2015
 4. Desarrollo del certificado de empresa.
 5. Desarrollo de los modelos 111 y 190 
 6. Desarrollo para el resto de regímenes de la Seguridad Social diferentes al Régimen General
+
+# Ejecutable
+py01Principal.py
